@@ -1,0 +1,29 @@
+header div ul {
+    display: flex;
+    justify-content: space-around; // or space-between, depending on the desired spacing
+}
+
+header div ul li {
+    list-style-type: none; // Ensure no bullet points
+}
+
+.button_head {
+    position: fixed;
+    top: 8px;
+    @extend .text-slide;
+
+}
+
+.button_body {
+    position: fixed;
+    top: 8px;
+    @extend .text-slide;
+
+}
+
+.button_Footer {
+    position: fixed;
+    top: 8px;
+    @extend .text-slide;
+
+}

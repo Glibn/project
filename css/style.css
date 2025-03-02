@@ -1,1 +1,149 @@
-/*# sourceMappingURL=style.css.map */
+ul {
+  list-style-type: none;
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.text-slide, .button_Footer, .button_body, .button_head {
+  animation: slideInFromRight 0.5s ease-out forwards;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+header div ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+header div ul li {
+  list-style-type: none;
+}
+
+.button_head {
+  position: fixed;
+  top: 8px;
+}
+
+.button_body {
+  position: fixed;
+  top: 8px;
+}
+
+.button_Footer {
+  position: fixed;
+  top: 8px;
+}
+
+.img-zoom {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+.img-zoom img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.img-zoom .magnifier {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  cursor: none;
+  pointer-events: none;
+  background-repeat: no-repeat;
+  background-size: 300% 300%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transform: translate(-50%, -50%);
+  display: none;
+}
+.img-zoom:hover .magnifier {
+  display: block;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+}
+
+.img-zoom {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+.img-zoom img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.img-zoom .magnifier {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  cursor: none;
+  pointer-events: none;
+  background-repeat: no-repeat;
+  background-size: 300% 300%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transform: translate(-50%, -50%);
+  display: none;
+}
+.img-zoom:hover .magnifier {
+  display: block;
+}
+
+.name_three {
+  display: flex;
+  justify-content: center;
+}
+
+.text_three {
+  display: flex;
+  justify-content: center;
+}
+
+.name_two {
+  display: flex;
+  justify-content: center;
+}
+
+.text_two {
+  display: flex;
+  justify-content: center;
+}
+
+.link_two {
+  display: flex;
+  justify-content: center;
+}
+
+.name_one {
+  display: flex;
+  justify-content: center;
+}
+
+.cost {
+  display: flex;
+  justify-content: center;
+}
+
+.text_one {
+  display: flex;
+  justify-content: center;
+}
+
+.link_one {
+  display: flex;
+  justify-content: center;
+}/*# sourceMappingURL=style.css.map */
