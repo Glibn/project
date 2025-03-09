@@ -1,19 +1,28 @@
 .name_one {
     display: flex;
-    justify-content: center;
+    // justify-content: center;
 }
 
 .cost {
     display: flex;
-    justify-content: center;
+    // justify-content: center;
 }
 
 .text_one {
     display: flex;
-    justify-content: center;
+    // justify-content: center;
 }
 
 .link_one {
     display: flex;
-    justify-content: center;
+    // justify-content: center;
+}
+
+.bor {
+    display: flex;
+    margin-top: 50px;
+}
+
+.img-zoom {
+    flex-shrink: 0;
 }

@@ -13,7 +13,7 @@ ul {
   }
 }
 .text-slide, .button_Footer, .button_body, .button_head {
-  animation: slideInFromRight 0.5s ease-out forwards;
+  animation: slideInFromRight 1s ease-out forwards;
   overflow: hidden;
   white-space: nowrap;
 }
@@ -81,29 +81,23 @@ header div ul li {
 }
 
 html {
-  background-image: url(/png/balancing.jpg);
-  background-size: 1600px 620px;
+  background-color: #D3D3D3;
+  background-size: 1500px 620px;
   background-repeat: no-repeat;
-  background-position: 0px 30px;
-}
-
-.amg {
-  width: 900px;
-  height: 700px;
+  background-position: 10px 30px;
 }
 
 body {
-  background-image: url(/png/architecture-7566412.jpg);
-  background-size: 1680px 840px;
+  background-image: url(../../png/sebastian-svenson.jpg);
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: 0px 640px;
+  background-position: center;
 }
 
 main {
-  background-image: url(/png/pastel-8477455_1920.jpg);
-  background-size: 1680px 100%;
+  background-size: 80px 200px;
   background-repeat: no-repeat;
-  background-position: 0px 1465px;
+  background-position: 0px 0px;
 }
 
 footer {
@@ -142,29 +136,23 @@ footer {
 }
 
 html {
-  background-image: url(/png/balancing.jpg);
-  background-size: 1600px 620px;
+  background-color: #D3D3D3;
+  background-size: 1500px 620px;
   background-repeat: no-repeat;
-  background-position: 0px 30px;
-}
-
-.amg {
-  width: 900px;
-  height: 700px;
+  background-position: 10px 30px;
 }
 
 body {
-  background-image: url(/png/architecture-7566412.jpg);
-  background-size: 1680px 840px;
+  background-image: url(../../png/sebastian-svenson.jpg);
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: 0px 640px;
+  background-position: center;
 }
 
 main {
-  background-image: url(/png/pastel-8477455_1920.jpg);
-  background-size: 1680px 100%;
+  background-size: 80px 200px;
   background-repeat: no-repeat;
-  background-position: 0px 1465px;
+  background-position: 0px 0px;
 }
 
 footer {
@@ -198,20 +186,25 @@ footer {
 
 .name_one {
   display: flex;
-  justify-content: center;
 }
 
 .cost {
   display: flex;
-  justify-content: center;
 }
 
 .text_one {
   display: flex;
-  justify-content: center;
 }
 
 .link_one {
   display: flex;
-  justify-content: center;
+}
+
+.bor {
+  display: flex;
+  margin-top: 50px;
+}
+
+.img-zoom {
+  flex-shrink: 0;
 }/*# sourceMappingURL=style.css.map */
