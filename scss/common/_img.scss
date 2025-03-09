@@ -4,8 +4,8 @@
     display: inline-block;
 
     img {
-        width: 100%;
-        height: auto;
+        // width: 100%;
+        // height: auto;
         display: block;
     }
 
@@ -28,4 +28,36 @@
     &:hover .magnifier {
         display: block;
     }
+}
+
+html {
+    background-image: url(/png/balancing.jpg);
+    background-size: 1600px 620px;
+    background-repeat: no-repeat;
+    background-position: 0px 30px;
+
+}
+
+.amg {
+    width: 900px;
+    height: 700px;
+}
+
+body {
+    background-image: url(/png/architecture-7566412.jpg);
+    background-size: 1680px 840px;
+    background-repeat: no-repeat;
+    background-position: 0px 640px;
+}
+
+main {
+    background-image: url(/png/pastel-8477455_1920.jpg);
+    background-size: 1680px 100%;
+    background-repeat: no-repeat;
+    background-position: 0px 1465px;
+}
+
+footer {
+    background-color: rgb(237, 229, 235);
+
 }
