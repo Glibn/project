@@ -1,16 +1,31 @@
 .name_two {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+
+    @media (min-width: 1200px) {
+        flex-wrap: nowrap;
+    }
 }
 
 .text_two {
     display: flex;
     justify-content: center;
     margin-top: 20px;
+    flex-wrap: wrap;
+
+    @media (min-width: 1200px) {
+        flex-wrap: nowrap;
+    }
 }
 
 .link_two {
     display: flex;
     justify-content: center;
     margin-top: 20px;
+    flex-wrap: wrap;
+
+    @media (min-width: 1200px) {
+        flex-wrap: nowrap;
+    }
 }

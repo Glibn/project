@@ -7,10 +7,7 @@
       content="width=device-width, initial-scale=1.0"
     />
     <title>info</title>
-    <link
-      rel="stylesheet"
-      href="./css/style.min.css"
-    />
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
@@ -25,11 +22,24 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="./scss/adaptations.scss"
+    />
+    <link
+      rel="stylesheet"
+      href="./css/adaptations.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./css/style.min.css"
+    />
   </head>
 
   <body>
     <header>
       <!-- Button trigger modal -->
+       <div class="rrt">
       <button
         type="button"
         class="btn btn-primary"
@@ -54,7 +64,7 @@
                 class="modal-title fs-5"
                 id="exampleModalLabel"
               >
-                Modal title
+                меню зв'язків
               </h1>
               <button
                 type="button"
@@ -69,14 +79,28 @@
                 aria-label="Default select example"
               >
                 <option selected>
-                  Open this select menu
+                  відкрити меню
                 </option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
+                <option value="1">
+                  <a
+                    href="https://www.jaquet-droz.com/en/news/dragon-automaton-jaquet-droz-takes-personalization-new-heights?form=MG0AV3"
+                    >купити 1 часи</a
+                  >
+                </option>
+                <option value="2">
+                  <a
+                    href="https://www.zenith-watches.com/int?form=MG0AV3"
+                    >купити 2 часи</a
+                  >
+                </option>
+                <option value="3">
+                  <a
+                    href="https://luxwatch.ua/position/graff/archive-lade/jewellery-watches-hallucination/hallucination"
+                    >купити 3 часи</a
+                  >
+                </option>
               </select>
             </div>
-            <div class="modal-footer"></div>
           </div>
         </div>
       </div>
@@ -86,8 +110,6 @@
             <button
               class="button_head"
               type="button"
-              data-aos="flip-right"
-              data-aos-duration="2000"
             >
               head
             </button>
@@ -96,8 +118,6 @@
             <button
               class="button_body"
               type="button"
-              data-aos="flip-right"
-              data-aos-duration="2000"
             >
               body
             </button>
@@ -106,8 +126,6 @@
             <button
               class="button_Footer"
               type="button"
-              data-aos="flip-right"
-              data-aos-duration="2000"
             >
               Footer
             </button>
@@ -119,7 +137,7 @@
       <div class="bor">
         <div class="img-zoom">
           <img
-            class="amgg animate__animated animate__rollIn"
+            class="amgg animate__animated animate__backInLeft"
             src="https://www.jaquet-droz.com/sites/default/files/styles/cart_product_image/public/Jaquet%20Droz_Dragon-Automaton_J0327330011_Front.jpg?itok=EFAPSUL4"
             alt="Dragon Automaton"
           />
@@ -127,25 +145,29 @@
 
         <div class="img-zoom">
           <img
-            class="amgg"
+            class="amgg animate__animated animate__backInUp"
             src="https://www.jaquet-droz.com/sites/default/files/styles/cart_product_image/public/J031034205_THE_BIRD_REPEATER_VUE_DES_ALPES.jpg?itok=DsNZlZsZ"
             alt="Bird Repeater Alpine View"
           />
         </div>
-        <ul
-          class="toxt animate__animated animate__fadeInRight"
-        >
-          <li class="name_one">
+        <ul class="toxt">
+          <li
+            class="name_one animate__animated animate__fadeInRight"
+          >
             Dragon Automaton / Bird Repeater
             Alpine View
           </li>
-          <li class="cost">
+          <li
+            class="cost animate__animated animate__fadeInRight animate__delay-1s"
+          >
             <b
               >300,000 долларов США / 525,000
               долларов США</b
             >
           </li>
-          <li class="text_one">
+          <li
+            class="text_one animate__animated animate__fadeInRight animate__delay-2s animate__fast"
+          >
             це унікальне поєднання мистецтва і
             техніки, створене у співпраці з
             канадським ілюстратором Джоном Хоу.
@@ -162,7 +184,9 @@
             натхненний фентезі всесвіту Translated
             with DeepL.com
           </li>
-          <li class="text_onew">
+          <li
+            class="text_onew animate__animated animate__fadeInRight animate__delay-2s animate__slow"
+          >
             Цей годинник включає дев'ять
             механічних анімацій, таких як рух
             хвоста, відкриття і закриття очей і
@@ -172,7 +196,9 @@
             Годинник виконано у вигляді дракона,
             який має вигляд живої істота
           </li>
-          <li class="link_one">
+          <li
+            class="link_one animate__animated animate__fadeInRight animate__delay-2s animate__slower"
+          >
             Цю колекцію було створено протягом
             UpBox років. років і являє собою
             високоунікальний витвір мистецтва,
@@ -182,12 +208,14 @@
             Якщо вам цікаво дізнатися більше, ви
             можете відвідати
             <a
+              class="animate__animated animate__fadeInRight animate__delay-2s"
               href="https://www.jaquet-droz.com/en/news/dragon-automaton-jaquet-droz-takes-personalization-new-heights?form=MG0AV3"
               >официальный сайт Jaquet Droz.</a
             >
           </li>
         </ul>
       </div>
+
       <div class="bor">
         <div class="img-zoom">
           <img
@@ -278,6 +306,10 @@
             магазини розкішних ювелірних виробів
             та авторизовані дилери також можуть
             мати продукцію Graff Diamonds.
+            <a
+              href="https://luxwatch.ua/position/graff/archive-lade/jewellery-watches-hallucination/hallucination"
+              >сайт для купівлі</a
+            >
           </li>
         </ul>
       </div>
@@ -291,15 +323,17 @@
         </li>
       </ul>
     </footer>
+    </div>
 
     <script
       src="./js/modal.js"
       type="module"
     ></script>
     <script
-      src="./js/mode.js"
+      src="js/mode.js"
       type="module"
     ></script>
+
     <script
       src="./js/magnifier.js "
       type="module"
@@ -309,8 +343,10 @@
       type="module"
     ></script>
     <script type="module">
+      // Initialize AOS after the library is loaded
       AOS.init();
     </script>
+
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
       integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"

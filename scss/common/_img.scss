@@ -38,28 +38,67 @@
 main {
     background-image: url(../../png/sebastian-svenson.jpg);
 
-    background-size: 1500px 400px;
+    background-size: 1600px 380px;
     background-repeat: no-repeat;
-    background-position: 10px 460px;
+    background-position: 0px 400px;
+    padding: 1px;
+
 }
 
 footer {
     background-color: rgb(237, 229, 235);
 
+    padding: 1px;
 }
 
 .amg {
-    width: 600px;
 
+    width: 300px;
+    margin-top: 1px;
+
+    @media screen and (min-width:768px) {
+        width: 250px;
+    }
+
+    @media (min-width: 1200px) {
+        width: 600px;
+    }
 }
 
+.amgg {
+    // Changed to 100% for responsiveness
+    width: 130px; // Set a max-width to maintain layout
+
+    @media screen and (min-width:768px) {
+        width: 180px;
+    }
+
+    @media (min-width: 1200px) {
+        width: 250px;
+    }
+}
+
+
+
 .fori {
-    width: 600px;
+    width: 400px;
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
+
+    margin-top: 10px;
+
+    @media screen and (min-width:768px) {
+        width: 300px;
+    }
+
+    @media (min-width: 1200px) {
+        width: 600px;
+    }
+
 }
 
 body {
-    background-color: aqua;
+
+    background: linear-gradient(135deg, #74ebd5, #acb6e5);
+
 }

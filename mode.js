@@ -14,6 +14,7 @@ document.addEventListener(
     headButton.addEventListener(
       "click",
       function () {
+        console.log("Head button clicked");
         window.scrollTo({
           top: 0,
           behavior: "smooth",
@@ -24,9 +25,10 @@ document.addEventListener(
     bodyButton.addEventListener(
       "click",
       function () {
-        const zenithSection =
-          document.querySelector(".name_two");
-        zenithSection.scrollIntoView({
+        console.log("Body button clicked");
+        const mainContent =
+          document.querySelector("main");
+        mainContent.scrollIntoView({
           behavior: "smooth",
         });
       }
@@ -35,6 +37,7 @@ document.addEventListener(
     footerButton.addEventListener(
       "click",
       function () {
+        console.log("Footer button clicked");
         const footer =
           document.querySelector("footer");
         footer.scrollIntoView({
