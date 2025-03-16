@@ -80,28 +80,30 @@ header div ul li {
   display: block;
 }
 
-html {
-  background-color: #D3D3D3;
-  background-size: 1500px 620px;
-  background-repeat: no-repeat;
-  background-position: 10px 30px;
-}
-
-body {
-  background-image: url(../../png/sebastian-svenson.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
 main {
-  background-size: 80px 200px;
+  background-image: url(../../png/sebastian-svenson.jpg);
+  background-size: 1500px 400px;
   background-repeat: no-repeat;
-  background-position: 0px 0px;
+  background-position: 10px 460px;
 }
 
 footer {
   background-color: rgb(237, 229, 235);
+}
+
+.amg {
+  width: 600px;
+}
+
+.fori {
+  width: 600px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+body {
+  background-color: aqua;
 }
 
 .info {
@@ -135,28 +137,30 @@ footer {
   display: block;
 }
 
-html {
-  background-color: #D3D3D3;
-  background-size: 1500px 620px;
-  background-repeat: no-repeat;
-  background-position: 10px 30px;
-}
-
-body {
-  background-image: url(../../png/sebastian-svenson.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
 main {
-  background-size: 80px 200px;
+  background-image: url(../../png/sebastian-svenson.jpg);
+  background-size: 1500px 400px;
   background-repeat: no-repeat;
-  background-position: 0px 0px;
+  background-position: 10px 460px;
 }
 
 footer {
   background-color: rgb(237, 229, 235);
+}
+
+.amg {
+  width: 600px;
+}
+
+.fori {
+  width: 600px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+body {
+  background-color: aqua;
 }
 
 .name_three {
@@ -167,6 +171,7 @@ footer {
 .text_three {
   display: flex;
   justify-content: center;
+  margin-top: 15px;
 }
 
 .name_two {
@@ -177,34 +182,48 @@ footer {
 .text_two {
   display: flex;
   justify-content: center;
+  margin-top: 20px;
 }
 
 .link_two {
   display: flex;
   justify-content: center;
+  margin-top: 20px;
 }
 
 .name_one {
   display: flex;
+  justify-content: center;
 }
 
 .cost {
   display: flex;
+  justify-content: center;
 }
 
 .text_one {
   display: flex;
+  justify-content: center;
 }
 
 .link_one {
   display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
 
 .bor {
   display: flex;
   margin-top: 50px;
+  margin-right: 30px;
 }
 
 .img-zoom {
   flex-shrink: 0;
+}
+
+.text_onew {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }/*# sourceMappingURL=style.css.map */
